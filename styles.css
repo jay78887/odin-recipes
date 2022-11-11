@@ -1,0 +1,44 @@
+#main-title {
+    font-weight:bolder;
+    font-size:4em;
+}
+#main-nav {
+    font-size:2em;
+    margin:0;
+    padding:0;
+}
+#main-nav li {
+    display:inline-flex;
+    border: 1px dotted blue;
+    background:blue;
+    padding:0.2em;
+    margin: 0.2em;
+}
+#main-nav li:hover {
+    background:lightblue;
+}
+#main-nav a {
+    color:white;
+    text-decoration: none;
+}
+.recipe-title {
+    font-size:3em;
+    color:blue;
+}
+.back-button{
+    display:inline-block;
+    margin-top:4em;
+    background:lightblue;
+    padding:1em;
+    color:white;
+    text-decoration: none;
+}
+h2 {
+    color:blue;
+}
+li {
+    padding-left:1em;
+}
+.steps li::marker {
+    font-weight:bold;
+}
